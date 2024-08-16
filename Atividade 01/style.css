@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap');
+header{
+    color: aliceblue;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(64, 64, 201);
+    font: 2rem "poppins"  
+
+
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.485);
+
+
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    padding-top: 20px;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    }
+#img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;  /* Defina a largura do quadrado */
+    height: 300px; /* Defina a altura do quadrado */
+    
+}
+#msg{
+    text-align: center;
+}
+#msgData{
+    text-align: center;
+}
